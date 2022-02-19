@@ -54,3 +54,40 @@ h1 {
     font-family: "Ubuntu";
     color: #8f8f8f;
 }
+
+/* testimonial section */
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
