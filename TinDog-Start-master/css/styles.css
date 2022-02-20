@@ -1,7 +1,7 @@
 #title {
     background-color: #ff4c68;
     color: aliceblue;
-    margin-bottom: 3rem;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -22,15 +22,22 @@ h1 {
 }                             
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 2% 15% 7%;
+
 }
 
 .iphone-img {
+    height: 40rem;
+    position: absolute;
     transform: rotate(30deg);
+    right: 30%;
 }
 
 #features {
-    padding: 5% 10%;
+    position: relative;
+    padding: 5% 15%;
+    background-color:#fff;
+    z-index: 1;
 }
 
 .col-lg-4 {
@@ -39,13 +46,13 @@ h1 {
     line-height: 2;
     font-family: "Montserrat";
 }
-.fa-solid {
+.feature-icon {
     color: #ef8172;
     font-size: 3rem;
     line-height: 2;
 }
 
-.fa-solid:hover {
+.feature-icon:hover {
     color: #ff4c68;
 }
 
@@ -59,7 +66,7 @@ h1 {
 
 h2 {
     font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -80,14 +87,69 @@ h2 {
 #press {
     background-color: #ef8172;
     text-align: center;
-    padding: 3%;
+    padding: 5%;
 }
 
 .press-logo {
     width: 15%;
-    margin: 20px 20px;
+    margin: 40px 20px;
 }
 
 .carousel-item {
     padding: 5% 15%;
+}
+
+/* pricing */
+#pricing {
+    padding: 50px;
+    text-align: center;
+}
+
+/* cards */
+
+.card-header {
+    background-color: #ff4c68;
+}
+
+.card-body {
+    line-height: 1;
+    }
+
+
+@media (max-width: 1028px) {
+    .iphone-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+/* Call to action */
+
+
+
+#cta {
+    color: aliceblue;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-text {
+    font-family: "Montserrat";
+    font-size: 2.8rem;
+    padding: 5% 15%;
+}
+
+.cta-buttons {
+    margin: 0 20px 40px;
+}
+
+/* footer */
+
+#footer {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.socials {
+    margin: 0 10px;
 }
