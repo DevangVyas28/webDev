@@ -1,15 +1,15 @@
 {
-  "name": "introtonode",
+  "name": "calculator",
   "version": "1.0.0",
-  "description": "Intro to node.",
-  "main": "index.js",
+  "description": "Calculator",
+  "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devang",
   "license": "ISC",
   "dependencies": {
-    "superheroes": "^3.0.0",
-    "supervillains": "^3.0.0"
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
   }
 }
