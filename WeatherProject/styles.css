@@ -1,3 +1,30 @@
 body {
-    background-image: url("assets/japanautumn.webp");
+    margin: 0;
+}
+form {
+    align-content: center;
+}
+
+
+.bgImage {
+    position: relative;
+    width: 100%;
+}
+
+.formContainer {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    align-content: center;
+}
+
+
+.tempUnit {
+    margin: 1.5rem;
+}
+
+.btn{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
 }
