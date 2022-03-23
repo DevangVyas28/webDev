@@ -11,10 +11,12 @@ app.get("/", function(req, res){
 });
 
 app.post("/", function(req,res){
-    var name = req.body.name;
-    var email = req.body.email;
+    const name = req.body.name;
+    const email = req.body.email;
     console.log(name);
     console.log(email);
+
+    
 })
 
 
