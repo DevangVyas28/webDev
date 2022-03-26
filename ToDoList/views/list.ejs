@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDoList</title>
-</head>
-<body>
-    <h1>Today is <%= dayOfWeek %>. </h1>
+<%- include("header") %> 
+    <div class="box" id="heading">
+        <h1><%= listTitle %></h1>
+    </div>
 
-    <form action="/" method="post">
-        <input type="text" name="newTask" placeholder="Task">
-        <button type="submit">Enter</button>
-    </form>
+    
 
-    <ul>
+    
+    <div class="box">
         <% for( task in addTask ) { %>
-            <li><%= addTask[task] %> </li>
+        <div class="item">
+            <input type="checkbox">
+            <p><%= addTask[task] %> </p>
+            
+        </div>
         <% } %>
+        <form action="/" method="post" class="item">
+            <input type="text" name="newTask" placeholder="Task" autocomplete="off">
+            <button type="submit" name="list" value="<%= listTitle %>">+</button>
+        </form>
         
-    </ul>
-</body>
-</html>
+    </div>
+<%- include("footer") %> 
